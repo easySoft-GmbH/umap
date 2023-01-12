@@ -17,7 +17,7 @@ services:
     restart: always 
 
   app:
-    image: umap
+    image: easysoft.azurecr.io/umap:latest
     ports:
       - "127.0.0.1:7000:8000"
     environment:
